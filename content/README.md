@@ -49,6 +49,8 @@ We welcome contributions and collaboration on this project. Please read our [con
 
 ## License and Authors
 
+[![$authorName logo]($authorLogo) $authorName]($authorUrl)
+
 [![license](https://img.shields.io/github/license/$githubOwner/$githubRepo.svg)]()
 [![GitHub contributors](https://img.shields.io/github/contributors/$githubOwner/$githubRepo.svg)]()
 

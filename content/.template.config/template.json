@@ -22,6 +22,16 @@
             "defaultValue": "Syncromatics Engineering",
             "replaces": "$authorName"
         },
+        "$authorUrl": {
+            "type": "parameter",
+            "defaultValue": "https://github.com/syncromatics",
+            "replaces": "$authorUrl"
+        },
+        "authorLogo": {
+            "type": "parameter",
+            "defaultValue": "https://en.gravatar.com/userimage/100017782/89bdc96d68ad4b23998e3cdabdeb6e13.png?size=16",
+            "replaces": "$authorLogo"
+        },
         "contactEmail": {
             "type": "parameter",
             "defaultValue": "engineering@syncromatics.com",
