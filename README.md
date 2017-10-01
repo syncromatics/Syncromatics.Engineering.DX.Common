@@ -48,6 +48,8 @@ We welcome contributions and collaboration on this project. Please read our [con
 
 ## License and Authors
 
+[![Syncromatics Engineering logo](https://en.gravatar.com/userimage/100017782/89bdc96d68ad4b23998e3cdabdeb6e13.png?size=16) Syncromatics Engineering](https://github.com/syncromatics)
+
 [![license](https://img.shields.io/github/license/syncromatics/Syncromatics.Engineering.DX.Common.svg)]()
 [![GitHub contributors](https://img.shields.io/github/contributors/syncromatics/Syncromatics.Engineering.DX.Common.svg)]()
 
