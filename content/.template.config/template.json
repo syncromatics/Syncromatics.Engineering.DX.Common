@@ -1,0 +1,61 @@
+{
+    "author": "Syncromatics Engineering",
+    "classifications": [
+        "DX/Common"
+    ],
+    "name": "Syncromatics Engineering developer experience documents",
+    "identity": "Syncromatics.Engineering.DX.Common",
+    "shortName": "syncdx-common",
+    "tags": {
+        "language": "markdown"
+    },
+    "sourceName": "Syncromatics.Engineering.DX.Common",
+    "preferNameDirectory": "false",
+    "symbols": {
+        "projectName": {
+            "type": "parameter",
+            "replaces": "$projectName",
+            "isRequired": true
+        },
+        "authorName": {
+            "type": "parameter",
+            "defaultValue": "Syncromatics Engineering",
+            "replaces": "$authorName"
+        },
+        "contactEmail": {
+            "type": "parameter",
+            "defaultValue": "engineering@syncromatics.com",
+            "replaces": "$contactEmail"
+        },
+        "githubOwner": {
+            "type": "parameter",
+            "defaultValue": "syncromatics",
+            "replaces": "$githubOwner"
+        },
+        "githubRepo": {
+            "type": "parameter",
+            "replaces": "$githubRepo",
+            "isRequired": true
+        },
+        "dockerOwner": {
+            "type": "parameter",
+            "defaultValue": "",
+            "replaces": "$dockerOwner"
+        },
+        "dockerRepo": {
+            "type": "parameter",
+            "defaultValue": "",
+            "replaces": "$dockerRepo"
+        },
+        "npmPackage": {
+            "type": "parameter",
+            "defaultValue": "",
+            "replaces": "$npmPackage"
+        },
+        "nugetPackage": {
+            "type": "parameter",
+            "defaultValue": "",
+            "replaces": "$nugetPackage"
+        }
+    }
+}

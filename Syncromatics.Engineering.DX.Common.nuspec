@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Syncromatics.Engineering.DX.Common</id>
+    <version>0.0.0</version>
+    <description>
+      Common languge-agnostic documents for a consistent developer experience
+    </description>
+    <authors>Syncromatics Engineering</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>

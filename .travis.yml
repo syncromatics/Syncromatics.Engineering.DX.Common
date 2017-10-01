@@ -1,0 +1,16 @@
+language: csharp
+
+os: linux
+dist: trusty
+group: edge
+sudo: required
+mono: latest
+dotnet: 2.0.0
+
+deploy:
+  provider: script
+  script:
+  - nuget pack Syncromatics.Engineering.DX.Common.nuspec -Version $TRAVIS_TAG
+  - dotnet nuget push Syncromatics.Engineering.DX.Common.$TRAVIS_TAG.nupkg -s https://www.nuget.org/api/v2/package -k $NUGET_API_KEY
+  on: 
+    tags: true
