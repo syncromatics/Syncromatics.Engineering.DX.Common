@@ -35,7 +35,7 @@ dotnet new syncdx-common -h
 This will build a `Syncromatics.Engineering.DX.Common.0.0.0.nupkg` file that you can test locally by installing with the `dotnet new` command:
 
 ```bash
-dotnet new -i Syncromatics.Engineering.DX.Common.0.0.0.nupkg
+dotnet new -i ./Syncromatics.Engineering.DX.Common.0.0.0.nupkg
 ```
 
 ## Code of Conduct
