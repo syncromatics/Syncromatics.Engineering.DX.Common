@@ -10,5 +10,7 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <projectUrl>https://github.com/syncromatics/Syncromatics.Engineering.DX.Common</projectUrl>
+    <licenseUrl>https://github.com/syncromatics/Syncromatics.Engineering.DX.Common/blob/master/LICENSE</licenseUrl>
   </metadata>
 </package>
