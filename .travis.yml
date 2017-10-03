@@ -8,7 +8,7 @@ mono: latest
 dotnet: 2.0.0
 
 script:
-- nuget pack Syncromatics.Engineering.DX.Common.nuspec -Version $TRAVIS_TAG
+- nuget pack Syncromatics.Engineering.DX.Common.nuspec -Version ${TRAVIS_TAG:-0.0.0-$TRAVIS_COMMIT-$TRAVIS_EVENT_TYPE-$TRAVIS_BUILD_NUMBER}
 
 deploy:
   provider: script
