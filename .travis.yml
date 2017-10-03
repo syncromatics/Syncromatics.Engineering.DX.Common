@@ -13,7 +13,7 @@ before_install:
   - mono .nuget/nuget.exe
 
 script:
-- mono .nuget/nuget.exe pack Syncromatics.Engineering.DX.Common.nuspec -Version ${TRAVIS_TAG:-0.0.0-$TRAVIS_COMMIT-$TRAVIS_EVENT_TYPE-$TRAVIS_BUILD_NUMBER}
+- mono .nuget/nuget.exe pack Syncromatics.Engineering.DX.Common.nuspec -Version ${TRAVIS_TAG:-0.0.0-$TRAVIS_COMMIT-$TRAVIS_BUILD_NUMBER}
 
 deploy:
   provider: script
