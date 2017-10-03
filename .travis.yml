@@ -16,6 +16,7 @@ script:
 - mono .nuget/nuget.exe pack Syncromatics.Engineering.DX.Common.nuspec -Version ${TRAVIS_TAG:-0.0.0-$TRAVIS_COMMIT-$TRAVIS_BUILD_NUMBER}
 
 deploy:
+  skip_cleanup: true
   provider: script
   script:
   - dotnet nuget push Syncromatics.Engineering.DX.Common.$TRAVIS_TAG.nupkg -s https://www.nuget.org/api/v2/package -k $NUGET_API_KEY
