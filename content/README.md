@@ -31,11 +31,11 @@ If available, add a link to other documentation for this software. Avoid documen
 
 _Remove any shields below that do not apply_
 
-[![Travis](https://img.shields.io/travis/$githubOwner/$githubRepo.svg)]()
-[![Docker Build Status](https://img.shields.io/docker/build/$dockerOwner/$dockerRepo.svg)]()
-[![npm](https://img.shields.io/npm/v/$npmPackage.svg)]()
-[![NuGet](https://img.shields.io/nuget/v/$nugetPackage.svg)]()
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/$nugetPackage.svg)]()
+[![Travis](https://img.shields.io/travis/$githubOwner/$githubRepo.svg)](https://travis-ci.org/$githubOwner/$githubRepo)
+[![Docker Build Status](https://img.shields.io/docker/build/$dockerOwner/$dockerRepo.svg)](https://hub.docker.com/r/$dockerOwner/$dockerRepo/)
+[![npm](https://img.shields.io/npm/v/$npmPackage.svg)](https://www.npmjs.com/package/$npmPackage)
+[![NuGet](https://img.shields.io/nuget/v/$nugetPackage.svg)](https://www.nuget.org/packages/$nugetPackage/)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/$nugetPackage.svg)](https://www.nuget.org/packages/$nugetPackage/)
 
 Write a few sentences on how to set up a build environment for this software. These instructions should include prerequisites like required tools, frameworks, and libraries that the reader will need to successfully build this software.
 
@@ -51,7 +51,7 @@ We welcome contributions and collaboration on this project. Please read our [con
 
 [![$authorName logo]($authorLogo) $authorName]($authorUrl)
 
-[![license](https://img.shields.io/github/license/$githubOwner/$githubRepo.svg)]()
-[![GitHub contributors](https://img.shields.io/github/contributors/$githubOwner/$githubRepo.svg)]()
+![license](https://img.shields.io/github/license/$githubOwner/$githubRepo.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/$githubOwner/$githubRepo.svg)
 
 This software is made available by $authorName under the MIT license.
