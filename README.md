@@ -24,9 +24,9 @@ dotnet new syncdx-common -h
 
 ## Building
 
-[![Travis](https://img.shields.io/travis/syncromatics/Syncromatics.Engineering.DX.Common.svg)]()
-[![NuGet](https://img.shields.io/nuget/v/Syncromatics.Engineering.DX.Common.svg)]()
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Syncromatics.Engineering.DX.Common.svg)]()
+[![Travis](https://img.shields.io/travis/syncromatics/Syncromatics.Engineering.DX.Common.svg)](https://travis-ci.org/syncromatics/Syncromatics.Engineering.DX.Common)
+[![NuGet](https://img.shields.io/nuget/v/Syncromatics.Engineering.DX.Common.svg)](https://www.nuget.org/packages/Syncromatics.Engineering.DX.Common/)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Syncromatics.Engineering.DX.Common.svg)](https://www.nuget.org/packages/Syncromatics.Engineering.DX.Common/)
 
 1. Ensure you have [installed .NET Core](https://www.microsoft.com/net/core)
 2. Ensure `nuget` is up to date with `nuget update -self`
@@ -50,7 +50,7 @@ We welcome contributions and collaboration on this project. Please read our [con
 
 [![Syncromatics Engineering logo](https://en.gravatar.com/userimage/100017782/89bdc96d68ad4b23998e3cdabdeb6e13.png?size=16) Syncromatics Engineering](https://github.com/syncromatics)
 
-[![license](https://img.shields.io/github/license/syncromatics/Syncromatics.Engineering.DX.Common.svg)]()
-[![GitHub contributors](https://img.shields.io/github/contributors/syncromatics/Syncromatics.Engineering.DX.Common.svg)]()
+![license](https://img.shields.io/github/license/syncromatics/Syncromatics.Engineering.DX.Common.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/syncromatics/Syncromatics.Engineering.DX.Common.svg)
 
 This software is made available by Syncromatics Engineering under the MIT license.
