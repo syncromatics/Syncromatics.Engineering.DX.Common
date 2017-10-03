@@ -1,4 +1,4 @@
-# Common languge-agnostic documents for a consistent developer experience
+# Common language-agnostic documents for a consistent developer experience
 
 This is a template containing developer experience documentation: README, a code of conduct, a contributor's guide, and a license. This is a quick way to ensure an open source project has enough information for those interested in it.
 
