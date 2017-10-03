@@ -18,6 +18,6 @@ script:
 deploy:
   provider: script
   script:
-  - dotnet nuget push Syncromatics.Engineering.DX.Common.*.nupkg -s https://www.nuget.org/api/v2/package -k $NUGET_API_KEY
+  - dotnet nuget push Syncromatics.Engineering.DX.Common.$TRAVIS_TAG.nupkg -s https://www.nuget.org/api/v2/package -k $NUGET_API_KEY
   on: 
     tags: true
