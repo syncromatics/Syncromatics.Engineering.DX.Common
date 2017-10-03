@@ -7,9 +7,13 @@ sudo: required
 mono: latest
 dotnet: 2.0.0
 
+before_install:
+  - mkdir -p .nuget
+  - wget -O .nuget/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+  - mono .nuget/nuget.exe
+
 script:
-- sudo nuget update -self
-- nuget pack Syncromatics.Engineering.DX.Common.nuspec -Version ${TRAVIS_TAG:-0.0.0-$TRAVIS_COMMIT-$TRAVIS_EVENT_TYPE-$TRAVIS_BUILD_NUMBER}
+- mono .nuget/nuget.exe pack Syncromatics.Engineering.DX.Common.nuspec -Version ${TRAVIS_TAG:-0.0.0-$TRAVIS_COMMIT-$TRAVIS_EVENT_TYPE-$TRAVIS_BUILD_NUMBER}
 
 deploy:
   provider: script
