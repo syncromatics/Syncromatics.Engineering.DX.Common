@@ -22,7 +22,7 @@
             "defaultValue": "Syncromatics Engineering",
             "replaces": "$authorName"
         },
-        "$authorUrl": {
+        "authorUrl": {
             "type": "parameter",
             "defaultValue": "https://github.com/syncromatics",
             "replaces": "$authorUrl"
