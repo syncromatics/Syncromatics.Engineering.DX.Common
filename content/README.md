@@ -51,7 +51,7 @@ We welcome contributions and collaboration on this project. Please read our [con
 
 [![$authorName logo]($authorLogo) $authorName]($authorUrl)
 
-![license](https://img.shields.io/github/license/$githubOwner/$githubRepo.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/$githubOwner/$githubRepo.svg)
+[![license](https://img.shields.io/github/license/$githubOwner/$githubRepo.svg)](https://github.com/$githubOwner/$githubRepo/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/$githubOwner/$githubRepo.svg)](https://github.com/$githubOwner/$githubRepo/graphs/contributors)
 
 This software is made available by $authorName under the MIT license.
