@@ -17,6 +17,7 @@ script:
 
 deploy:
   provider: script
+  skip_cleanup: true
   script:
   - dotnet nuget push Syncromatics.Engineering.DX.Common.*.nupkg -s https://www.nuget.org/api/v2/package -k $NUGET_API_KEY
   on: 
