@@ -29,12 +29,12 @@
         },
         "authorLogo": {
             "type": "parameter",
-            "defaultValue": "https://en.gravatar.com/userimage/100017782/89bdc96d68ad4b23998e3cdabdeb6e13.png?size=16",
+            "defaultValue": "https://secure.gravatar.com/avatar/645145afc5c0bc24ba24c3d86228ad39?size=16",
             "replaces": "$authorLogo"
         },
         "contactEmail": {
             "type": "parameter",
-            "defaultValue": "engineering@syncromatics.com",
+            "defaultValue": "open-source@gmvsync.com",
             "replaces": "$contactEmail"
         },
         "githubOwner": {
