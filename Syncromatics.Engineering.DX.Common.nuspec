@@ -6,7 +6,7 @@
     <description>
       Common language-agnostic documents for a consistent developer experience
     </description>
-    <authors>Syncromatics Engineering</authors>
+    <authors>GMV Syncromatics Engineering</authors>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>

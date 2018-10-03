@@ -1,9 +1,9 @@
 {
-    "author": "Syncromatics Engineering",
+    "author": "GMV Syncromatics Engineering",
     "classifications": [
         "DX/Common"
     ],
-    "name": "Syncromatics Engineering developer experience documents",
+    "name": "GMV Syncromatics Engineering developer experience documents",
     "identity": "Syncromatics.Engineering.DX.Common",
     "shortName": "syncdx-common",
     "tags": {
@@ -19,7 +19,7 @@
         },
         "authorName": {
             "type": "parameter",
-            "defaultValue": "Syncromatics Engineering",
+            "defaultValue": "GMV Syncromatics Engineering",
             "replaces": "$authorName"
         },
         "authorUrl": {
