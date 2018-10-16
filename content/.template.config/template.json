@@ -37,6 +37,14 @@
             "defaultValue": "open-source@gmvsync.com",
             "replaces": "$contactEmail"
         },
+        "copyrightYear": {
+            "type": "generated",
+            "generator": "now",
+            "replaces": "$copyrightYear",
+            "parameters": {
+                "format": "yyyy"
+            }
+        },
         "githubOwner": {
             "type": "parameter",
             "defaultValue": "syncromatics",
