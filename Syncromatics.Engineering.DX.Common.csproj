@@ -2,7 +2,6 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Syncromatics.Engineering.DX.Common</PackageId>
-    <Version>0.0.0</Version>
     <Description>
       Common language-agnostic documents for a consistent developer experience
     </Description>
