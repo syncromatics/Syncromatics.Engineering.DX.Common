@@ -75,10 +75,10 @@
             "defaultValue": "",
             "replaces": "$nugetPackage"
         },
-        "defaultCodeOwners": {
-            "type": "@syncromatics/engineers",
-            "defaultValue": "",
-            "replaces": "$defaultCodeOwners"
+        "githubDefaultCodeOwners": {
+            "type": "parameter",
+            "defaultValue": "@syncromatics/engineers",
+            "replaces": "$githubDefaultCodeOwners"
         }
     }
 }
