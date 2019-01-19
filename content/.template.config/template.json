@@ -74,6 +74,11 @@
             "type": "parameter",
             "defaultValue": "",
             "replaces": "$nugetPackage"
+        },
+        "defaultCodeOwners": {
+            "type": "@syncromatics/engineers",
+            "defaultValue": "",
+            "replaces": "$defaultCodeOwners"
         }
     }
 }
