@@ -1,24 +1,22 @@
 language: csharp
-
+mono: none
+dotnet: 2.1.402
 os: linux
-dist: trusty
-group: edge
-sudo: required
-mono: latest
-dotnet: 2.0.0
+git:
+  depth: false
 
 before_install:
-  - mkdir -p .nuget
-  - wget -O .nuget/nuget.exe https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
-  - mono .nuget/nuget.exe
+  - curl -sL https://github.com/annymsMthd/gogitver/releases/download/0.5.1/linux.tar.gz | tar zx
+
+before_script:
+  - ./gogitver
+  - git branch
+  - git tag
+  - git fetch -tv
+  - git fetch origin master:master
+  - ./gogitver
 
 script:
-- mono .nuget/nuget.exe pack Syncromatics.Engineering.DX.Common.nuspec -Version ${TRAVIS_TAG:-0.0.0-$TRAVIS_COMMIT-$TRAVIS_BUILD_NUMBER}
-
-deploy:
-  provider: script
-  skip_cleanup: true
-  script:
-  - dotnet nuget push Syncromatics.Engineering.DX.Common.*.nupkg -s https://www.nuget.org/api/v2/package -k $NUGET_API_KEY
-  on: 
-    tags: true
+  - dotnet restore || travis_terminate 1
+  - dotnet pack --no-restore Syncromatics.Engineering.DX.Common.csproj --configuration Release /p:Version=$(./gogitver) || travis_terminate 1;
+  - dotnet nuget push bin/Release/*.nupkg -s https://www.nuget.org/api/v2/package -k $NUGET_API_KEY || travis_terminate 1;

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Syncromatics.Engineering.DX.Common</PackageId>
+    <Description>
+      Common language-agnostic documents for a consistent developer experience
+    </Description>
+    <Authors>GMV Syncromatics Engineering</Authors>
+    <PackageType>Template</PackageType>
+    <PackageProjectUrl>https://github.com/syncromatics/Syncromatics.Engineering.DX.Common</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/syncromatics/Syncromatics.Engineering.DX.Common/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="content/**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
