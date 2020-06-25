@@ -9,7 +9,15 @@
     <PackageType>Template</PackageType>
     <PackageProjectUrl>https://github.com/syncromatics/Syncromatics.Engineering.DX.Common</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/syncromatics/Syncromatics.Engineering.DX.Common/blob/master/LICENSE</PackageLicenseUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
   <ItemGroup>
     <Content Include="content/**">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
